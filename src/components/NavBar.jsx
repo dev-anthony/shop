@@ -59,10 +59,10 @@ function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6 font-medium">
           <Link to="/">Home</Link>
-          <Link to="/cart">Products</Link>
-          <Link to="/cart">Blog</Link>
-          <Link to="/cart">About Us</Link>
-          <Link to="/cart">Contact</Link>
+          <Link to="/products">Products</Link>
+          <Link to="/">Blog</Link>
+          <Link to="/">About Us</Link>
+          <Link to="/">Contact</Link>
         </nav>
 
         {/* Cart + Search */}
@@ -84,10 +84,10 @@ function Navbar() {
       {isMenuOpen && (
         <div className="flex flex-col md:hidden bg-white px-4 pb-4 text-sm gap-2 transition-all duration-300 ease-in-out shadow-lg">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
-          <Link to="/cart" onClick={() => setIsMenuOpen(false)}>Products</Link>
-          <Link to="/cart" onClick={() => setIsMenuOpen(false)}>Blog</Link>
-          <Link to="/cart" onClick={() => setIsMenuOpen(false)}>About Us</Link>
-          <Link to="/cart" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+          <Link to="/products" onClick={() => setIsMenuOpen(false)}>Products</Link>
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>Blog</Link>
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>About Us</Link>
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>Contact</Link>
         </div>
       )}
     </div>
