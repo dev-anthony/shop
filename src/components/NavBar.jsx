@@ -50,7 +50,7 @@ function Navbar() {
 
   return (
     <div className="w-full bg-white shadow text-black">
-      <div className="flex justify-between items-center px-4 py-6 md:px-10">
+      <div className="flex justify-between items-center px-4 py-3 md:px-10">
         {/* Logo */}
         <div className="logo">
           <h2 className="font-bold text-lg">🛍️Shop</h2>
