@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "name": "BMW",
+        "price": 10000,
+        "image": "/images/34797d0858b2e6d818e894ac3a4880f2.jpg"
+    },
+    
+    {
+        "id":2,
+        "name": "Basket Ball",
+        "price": 1000,
+        "image": "images/1ead7b993e8a9d3aacad3434097756fa.jpg"
+    }
+]
