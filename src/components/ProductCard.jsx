@@ -42,26 +42,29 @@ function ProductCard() {
   }
 
   return (
-    <div className="px-4 py-10">
+    <div className="px-10 py-10">
+    
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((item) => (
           <div
             key={item.id}
-            className="border border-gray-200 rounded-lg shadow-sm p-4 hover:shadow-md transition"
+            className="shadow-2xl rounded-lg bg-white hover:shadow-xl transition duration-300"
           >
             <img
               src={item.image}
               alt={item.name}
-              className="w-full h-48 object-cover rounded mb-3"
+              className="w-full h-100 object-cover rounded mb-3"
             />
-            <h3 className="font-semibold text-lg mb-1">{item.name}</h3>
-            <p className="text-gray-600 mb-2">${item.price}</p>
+           <div className="px-2 pb-2">
+             <h3 className="font-semibold text-lg mb-2 ml-2">{item.name}</h3>
+            <p className="text-red-600 mb-2 ml-2 ">${item.price}</p>
             <button
               onClick={() => addToCart(item)}
               className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition w-full"
             >
               Add to Cart
             </button>
+           </div>
           </div>
         ))}
       </div>

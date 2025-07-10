@@ -11,5 +11,23 @@
         "name": "Basket Ball",
         "price": 1000,
         "image": "images/1ead7b993e8a9d3aacad3434097756fa.jpg"
+    },
+    {
+        "id":3,
+        "name": "Audi",
+        "price": 5000,
+        "image": "images/441d82b32c9a16eb0c7a1fa8cdae7cee.jpg"
+    },
+    {
+        "id":4,
+        "name": "Laptop",
+        "price": 2000,
+        "image": "images/b1d3e54e4573000cd4a83ef60462a9a9.jpg"
+    },
+    {
+        "id":5,
+        "name": "Bible",
+        "price": 500,
+        "image": "images/a83ae048ed7b4079354306deccca9cf1.jpg"
     }
 ]
