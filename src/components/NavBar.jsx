@@ -51,12 +51,11 @@ function Navbar() {
   return (
     <div className="w-full bg-white shadow text-black">
       <div className="flex justify-between items-center px-4 py-3 md:px-10">
-        {/* Logo */}
+      
         <div className="logo">
           <h2 className="font-bold text-lg">🛍️Shop</h2>
         </div>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6 font-medium">
           <Link to="/">Home</Link>
           <Link to="/products">Products</Link>
@@ -65,7 +64,7 @@ function Navbar() {
           <Link to="/">Contact</Link>
         </nav>
 
-        {/* Cart + Search */}
+       
         <div className="flex items-center gap-4">
           <Link to="/cart" className="relative text-xl">
             🛒

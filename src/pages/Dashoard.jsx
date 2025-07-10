@@ -26,7 +26,7 @@ function Dashboard() {
       </div> 
     </div> */}
     <div className="h-min bg-gray-300 px-4 md:px-20 py-7 w-full flex  md:flex-row justify-between items-center bg-[url('/src/assets/abstract modern white and grey gradient color diagonal line pattern background.jpg')] bg-cover bg-center">
-  {/* Text Section */}
+ 
   <div className="md:w-1/2 h-full overflow-hidden md:items-start md:text-left py-10 md:py-0">
     <h1 className="font-bold md:text-3xl text-xl">SHOP ANYTHING & EVERYTHING!</h1>
     <p className="md:text-xl md:mt-4 mt-2 text-xs">
@@ -38,7 +38,7 @@ function Dashboard() {
     </button>
   </div>
 
-  {/* Image Section (hidden on small screens) */}
+
   <div className=" h-full w-full md:w-1/2 flex items-center justify-center md:justify-end">
     <img
       src="/src/assets/Still_life_of_wireless_cyberpunk_headphones___Premium_AI-generated_PSD-removebg-preview.png"
